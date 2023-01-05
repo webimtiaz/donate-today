@@ -124,6 +124,7 @@ hr{
 }
 .sub-ti{
     text-align: center;
+    padding-bottom: 25px;
 }
 .our-donat{
     color: black;
@@ -135,6 +136,70 @@ hr{
     padding: 20px 370px;
 
 }
-.donat-item{
+.main-item{
     display: flex;
+    justify-content: center;
+    gap: 24px;
 }
+.donat-item-sub{
+    width: 300px;
+    background: #7bffe948;
+    padding: 35px 15px;
+    border-radius: 10px;
+}
+.donat-item{
+    width: 300px;
+    background: #ff7bf43b;
+    padding: 35px 15px;
+    border-radius: 10px;
+}
+.food-titel{
+    padding: 25px 0;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.food-sub{
+    color: #6b6b6b;
+    /* font-size: 18px;*/
+    font-weight: 400; 
+}
+.sec-item{
+    width: 500px;
+    margin: 0 140px;
+
+}
+.donation-section{
+    display: flex;
+    margin-right: 50px;
+    gap: 24px;
+    margin-top: 88px;
+}
+.their-lives{
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 100px;
+}
+.their-titel{
+    padding: 28px 0;
+    padding-right: 100px;
+}
+.their-titel-sub{
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.their-image{
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+/* .their-image{
+    width: 200px;
+    /* padding: 0 50px; */
+} */
