@@ -1,6 +1,8 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    padding: 0 auto;
+    box-sizing: border-box;
 
 }
 a{
@@ -161,19 +163,24 @@ hr{
 }
 .food-sub{
     color: #6b6b6b;
-    /* font-size: 18px;*/
+    font-size: 18px;
     font-weight: 400; 
 }
-.sec-item{
-    width: 500px;
-    margin: 0 140px;
+/*================= your donation css part ===================*/
 
-}
+
 .donation-section{
     display: flex;
-    margin-right: 50px;
-    gap: 24px;
-    margin-top: 88px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+}
+.sec-item{
+    align-items: center;
+    margin: 30px 60px;
+    padding: 30px 0;
+    
+
 }
 .their-lives{
     font-size: 35px;
@@ -182,14 +189,100 @@ hr{
 }
 .their-titel{
     padding: 28px 0;
-    padding-right: 100px;
+    
 }
 .their-titel-sub{
-    padding-right: 100px;
+    padding-right: 60px;
     padding-bottom: 30px;
 }
-.their-image{
-    width: 350px;
+
+
+.donation-section img{
+
+    height: 250px;
+}
+/* ===================== They need us to suvive part css=================== */
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    gap: 24px;
+}
+.service img{
+    height: 300px;
+    margin-left: 40px;
+}
+.service-part{
+    align-items: center;
+    margin: 30px 35px;
+    padding: 30px 0;
+}
+.ser-heading{
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 65px;
+}
+.ser-titel{
+    padding: 28px 0;
+}
+.ser-list{
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+/*============ Get My Updates css part============= */
+
+.My-Updates{
+    text-align: center;
+    padding: 30px 350px;
+}
+.updats-hed{
+    font-size: 40px;
+    font-weight: 700;
+}
+.updats-list{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/*========= form-part css============ */
+.form-part{
+    text-align: center;
+    background: #FFF4D6;
+    padding: 60px;
+    margin: 0 300px;
+}
+.from-set{
+    border: 0;
+    padding: 10px 75px;
+    background: #D9D9D9;
+
+}
+.form-sub{
+    border: 0;
+    padding: 10px 60px;
+    background: #FF5959;
+    margin: -6px;
+}
+/*-=============== footer part css============= */
+
+footer{
+    text-align: center;
+    background: #0B0D17;
+    padding: 40px 0;
+}
+.footer-part{
+    color: #D9D9D9;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Brygada 1918', serif;
+}
+.footer-clo{
+    color: #D9D9D9;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 25px;
 }
 
 
@@ -199,7 +292,12 @@ hr{
 
 
 
-/* .their-image{
-    width: 200px;
-    /* padding: 0 50px; */
-} */
+
+
+
+
+
+
+
+
+
